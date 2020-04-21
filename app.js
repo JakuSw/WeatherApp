@@ -3,7 +3,8 @@ const request = require('request');
 const bodyParser = require('body-parser');
 const app = express();
 
-const apiid = 'apiid';
+//change to your id
+const apiid = '';
 
 app.set('view engine', 'ejs');
 app.use('/public', express.static('public'));
